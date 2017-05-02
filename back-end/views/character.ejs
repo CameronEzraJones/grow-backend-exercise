@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character details: <%= name %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<h1>Character Data: <%= name %></h1>
+<table class="table">
+    <tr>
+        <td>Height</td>
+        <td><%= height %></td>
+    </tr>
+    <tr>
+        <td>Mass</td>
+        <td><%= mass %></td>
+    </tr>
+    <tr>
+        <td>Hair Color</td>
+        <td><%= hair_color %></td>
+    </tr>
+    <tr>
+        <td>Skin Color</td>
+        <td><%= skin_color %></td>
+    </tr>
+    <tr>
+        <td>Eye Color</td>
+        <td><%= eye_color %></td>
+    </tr>
+    <tr>
+        <td>Birth Year</td>
+        <td><%= birth_year %></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><%= gender %></td>
+    </tr>
+</table>
+</body>
+</html>
